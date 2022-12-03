@@ -1,0 +1,15 @@
+[package]
+name = "task_manager_linux"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+procfs = "0.14.1"
+sysinfo = "*"
+log = "0.4"
+tui-logger = "0.7"
+tui = "0.17"
+crossterm = "0.23"
+tokio = { version = "1", features = ["full"] }
